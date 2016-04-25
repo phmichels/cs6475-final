@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEB2FB761CCD541800C11B71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB2FB751CCD541800C11B71 /* main.m */; };
+		BEB2FB791CCD541900C11B71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB2FB781CCD541900C11B71 /* AppDelegate.m */; };
+		BEB2FB7C1CCD541900C11B71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB2FB7B1CCD541900C11B71 /* ViewController.m */; };
+		BEB2FB7F1CCD541900C11B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB2FB7D1CCD541900C11B71 /* Main.storyboard */; };
+		BEB2FB811CCD541900C11B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB2FB801CCD541900C11B71 /* Assets.xcassets */; };
+		BEB2FB841CCD541900C11B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB2FB821CCD541900C11B71 /* LaunchScreen.storyboard */; };
+		BEB2FB8D1CCD557500C11B71 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2FB8B1CCD557500C11B71 /* AVFoundation.framework */; };
+		BEB2FB8E1CCD557500C11B71 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2FB8C1CCD557500C11B71 /* CoreVideo.framework */; };
+		BEB2FB941CCD5E9B00C11B71 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB2FB931CCD5E9B00C11B71 /* PreviewView.m */; };
+		BEB384D41CCD8B6F0011ECB9 /* sunglass.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB384D31CCD8B6F0011ECB9 /* sunglass.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEB2FB711CCD541800C11B71 /* FaceCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB2FB751CCD541800C11B71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEB2FB771CCD541800C11B71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEB2FB781CCD541900C11B71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEB2FB7A1CCD541900C11B71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEB2FB7B1CCD541900C11B71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEB2FB7E1CCD541900C11B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEB2FB801CCD541900C11B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEB2FB831CCD541900C11B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEB2FB851CCD541900C11B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB2FB8B1CCD557500C11B71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BEB2FB8C1CCD557500C11B71 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BEB2FB921CCD5E9B00C11B71 /* PreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
+		BEB2FB931CCD5E9B00C11B71 /* PreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
+		BEB384D31CCD8B6F0011ECB9 /* sunglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunglass.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEB2FB6E1CCD541800C11B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB2FB8D1CCD557500C11B71 /* AVFoundation.framework in Frameworks */,
+				BEB2FB8E1CCD557500C11B71 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEB2FB681CCD541800C11B71 = {
+			isa = PBXGroup;
+			children = (
+				BEB2FB731CCD541800C11B71 /* FaceCam */,
+				BEB2FB8F1CCD560700C11B71 /* Frameworks */,
+				BEB2FB721CCD541800C11B71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB2FB721CCD541800C11B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB2FB711CCD541800C11B71 /* FaceCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB2FB731CCD541800C11B71 /* FaceCam */ = {
+			isa = PBXGroup;
+			children = (
+				BEB2FB771CCD541800C11B71 /* AppDelegate.h */,
+				BEB2FB781CCD541900C11B71 /* AppDelegate.m */,
+				BEB2FB7A1CCD541900C11B71 /* ViewController.h */,
+				BEB2FB7B1CCD541900C11B71 /* ViewController.m */,
+				BEB2FB921CCD5E9B00C11B71 /* PreviewView.h */,
+				BEB2FB931CCD5E9B00C11B71 /* PreviewView.m */,
+				BEB2FB7D1CCD541900C11B71 /* Main.storyboard */,
+				BEB2FB801CCD541900C11B71 /* Assets.xcassets */,
+				BEB2FB821CCD541900C11B71 /* LaunchScreen.storyboard */,
+				BEB2FB851CCD541900C11B71 /* Info.plist */,
+				BEB2FB741CCD541800C11B71 /* Supporting Files */,
+			);
+			path = FaceCam;
+			sourceTree = "<group>";
+		};
+		BEB2FB741CCD541800C11B71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB384D31CCD8B6F0011ECB9 /* sunglass.png */,
+				BEB2FB751CCD541800C11B71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEB2FB8F1CCD560700C11B71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB2FB8B1CCD557500C11B71 /* AVFoundation.framework */,
+				BEB2FB8C1CCD557500C11B71 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB2FB701CCD541800C11B71 /* FaceCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB2FB881CCD541900C11B71 /* Build configuration list for PBXNativeTarget "FaceCam" */;
+			buildPhases = (
+				BEB2FB6D1CCD541800C11B71 /* Sources */,
+				BEB2FB6E1CCD541800C11B71 /* Frameworks */,
+				BEB2FB6F1CCD541800C11B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceCam;
+			productName = FaceCam;
+			productReference = BEB2FB711CCD541800C11B71 /* FaceCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB2FB691CCD541800C11B71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paulo Michels";
+				TargetAttributes = {
+					BEB2FB701CCD541800C11B71 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BEB2FB6C1CCD541800C11B71 /* Build configuration list for PBXProject "FaceCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEB2FB681CCD541800C11B71;
+			productRefGroup = BEB2FB721CCD541800C11B71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB2FB701CCD541800C11B71 /* FaceCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB2FB6F1CCD541800C11B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB2FB841CCD541900C11B71 /* LaunchScreen.storyboard in Resources */,
+				BEB2FB811CCD541900C11B71 /* Assets.xcassets in Resources */,
+				BEB2FB7F1CCD541900C11B71 /* Main.storyboard in Resources */,
+				BEB384D41CCD8B6F0011ECB9 /* sunglass.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB2FB6D1CCD541800C11B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB2FB7C1CCD541900C11B71 /* ViewController.m in Sources */,
+				BEB2FB941CCD5E9B00C11B71 /* PreviewView.m in Sources */,
+				BEB2FB791CCD541900C11B71 /* AppDelegate.m in Sources */,
+				BEB2FB761CCD541800C11B71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEB2FB7D1CCD541900C11B71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB2FB7E1CCD541900C11B71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEB2FB821CCD541900C11B71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB2FB831CCD541900C11B71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEB2FB861CCD541900C11B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEB2FB871CCD541900C11B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB2FB891CCD541900C11B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michels.facecam.FaceCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEB2FB8A1CCD541900C11B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michels.facecam.FaceCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB2FB6C1CCD541800C11B71 /* Build configuration list for PBXProject "FaceCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB2FB861CCD541900C11B71 /* Debug */,
+				BEB2FB871CCD541900C11B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB2FB881CCD541900C11B71 /* Build configuration list for PBXNativeTarget "FaceCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB2FB891CCD541900C11B71 /* Debug */,
+				BEB2FB8A1CCD541900C11B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB2FB691CCD541800C11B71 /* Project object */;
+}
