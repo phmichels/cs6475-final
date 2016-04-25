@@ -41,7 +41,6 @@
     // Video frame capturing
     AVCaptureVideoDataOutput *videoOutput = [[AVCaptureVideoDataOutput alloc] init];
     [captureSession addOutput:videoOutput];
-    //videoOutput.videoSettings = @{ kCVPixelBufferPixelFormatTypeKey: [NSNumber numberWithInt:kCVPixelFormatType_32BGRA] };
 
     dispatch_queue_t queue = dispatch_queue_create("frameProcessingQueue", NULL);
     [videoOutput setSampleBufferDelegate:self queue:queue];
@@ -59,7 +58,7 @@
 }
 
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection {
-    
+
     CVImageBufferRef cvImage = CMSampleBufferGetImageBuffer(sampleBuffer);
     CIImage *ciImage = [[CIImage alloc] initWithCVPixelBuffer:cvImage];
     
@@ -117,5 +116,6 @@
     }
         
 }
+
 
 @end
